@@ -1,0 +1,26 @@
+{
+  "name": "git_commit",
+  "version": "1.0.0",
+  "description": "git commit message",
+  "main": "git-commit.plugin.zsh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:commit": "node ~/.oh-my-zsh/custom/plugins/git_commit_tool/src/git-commit-script.js",
+    "dev:add": "node ~/.oh-my-zsh/custom/plugins/git_commit_tool/src/add-hot-projects.js",
+    "dev:remove": "node ~/.oh-my-zsh/custom/plugins/git_commit_tool/src/remove-hot-project.js",
+    "build": "npx webpack"
+  },
+  "author": "赵姝颖",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^8.2.3",
+    "inquirer": "^8.2.0",
+    "json5": "^2.2.0",
+    "json5-loader": "^4.0.1",
+    "simple-git": "^2.47.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1"
+  }
+}
