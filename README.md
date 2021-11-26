@@ -22,6 +22,7 @@ git clone git@github.com:qiaomu0427/git_commit_tool.git ${ZSH_CUSTOM:-~/.oh-my-z
 
 ### - git-commit 提交小工具
 1. 选择 action
+
 2. 选择项目，项目有两种，一种是写在项目根目录下的 rush.json 中的，数据结构是
   ``` json
   {
@@ -32,4 +33,5 @@ git clone git@github.com:qiaomu0427/git_commit_tool.git ${ZSH_CUSTOM:-~/.oh-my-z
   }
   ```
   一种是自己设置的 hot project。每一次的选择都会在下一次被置顶。（所以第一次找 rush 中的项目可能会花一写时间，下一次在使用的时候就可以很快找到了）
+  
   3. 输入 message
