@@ -32,4 +32,4 @@ git clone git@github.com:qiaomu0427/git_commit_tool.git ${ZSH_CUSTOM:-~/.oh-my-z
   }
   ```
   一种是自己设置的 hot project。每一次的选择都会在下一次被置顶。（所以第一次找 rush 中的项目可能会花一写时间，下一次在使用的时候就可以很快找到了）
-3. 输入 message
+  3. 输入 message
